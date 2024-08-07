@@ -22,12 +22,6 @@ queries_by_country = {
     "Brazil": ["Brazil new data centre", "Brazil new data center"]
 }
 
-def check_login():
-    if 'logged_in' not in st.session_state or not st.session_state.logged_in:
-        st.warning("You need to be logged in to view this page.")
-        st.write("[Login](login.py)")
-        st.stop()
-
 def parse_relative_date(relative_date_str):
     now = datetime.now()
     patterns = {
@@ -168,8 +162,6 @@ def save_article(article):
     )
 
 def main():
-    check_login()
-
     st.title("New Data Centre")
 
     if 'country' not in st.session_state:
