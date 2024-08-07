@@ -80,7 +80,7 @@ def fetch_articles(query):
         "tbs": "qdr:w"
     })
     headers = {
-        'X-API-KEY': 'FYI 01cecc1a7a03c38923dbf4187aed4fd6545ca4f8',
+        'X-API-KEY': '01cecc1a7a03c38923dbf4187aed4fd6545ca4f8',
         'Content-Type': 'application/json'
     }
 
