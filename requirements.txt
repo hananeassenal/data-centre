@@ -1,6 +1,12 @@
 streamlit
+streamlit-cookies-manager
 requests
+beautifulsoup4 
+feedparser
 newspaper3k
 pymongo
 llama-index
 captcha
+groq
+llama_index.llms.groq 
+lxml[html_clean]   
